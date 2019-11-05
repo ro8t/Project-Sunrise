@@ -3,3 +3,6 @@
 
 # Git etc.
 .DS_Store
+
+# Config
+config.py
