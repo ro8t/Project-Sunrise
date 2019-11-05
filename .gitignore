@@ -1,8 +1,10 @@
 # Jupyter Notebook etc.
 .ipynb_checkpoints/
+__pycache__/
 
 # Git etc.
 .DS_Store
 
 # Config
-config.py
+# config.py
+
