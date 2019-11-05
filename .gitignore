@@ -1,0 +1,5 @@
+# Jupyter Notebook etc.
+.ipynb_checkpoints/
+
+# Git etc.
+.DS_Store
