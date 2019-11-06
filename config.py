@@ -1,4 +1,0 @@
-# API Keys
-fred = "f2e7512f0c133ae6dd4a89c48e94f3c8"
-
-yelp = "mzbwGpsLB2bZO3TZaoW-6C8P4yGELsNwTgrkF27gPEBZq9LXdPbiPrx4i7cDYyKyZQmq_qAKviMimFXr4jeUzPkhVel_GdJjoZLjxYPpVdacPaRTWIiFdkDkAOfAXXYx"

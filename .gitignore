@@ -9,3 +9,5 @@ __pycache__/
 *.json
 *.sqlite
 
+# config
+config.py
