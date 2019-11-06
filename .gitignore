@@ -5,6 +5,7 @@ __pycache__/
 # Git etc.
 .DS_Store
 
-# Config
-config.py
+# extensions
+*.json
+*.sqlite
 
