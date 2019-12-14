@@ -8,6 +8,7 @@ __pycache__/
 # extensions
 *.json
 *.sqlite
+*.ipynb
 
 # config
 config.py
