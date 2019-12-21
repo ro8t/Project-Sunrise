@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- What industries are you currently in? (route 1)-->
+<body>
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/assets/img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../static/assets/img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../static/assets/img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../static/assets/img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../static/assets/img/favicons/safari-pinned-tab.svg" color="#f23838">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Vendor Stylesheets -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet">
+        <link href="../static/assets/vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="../static/assets/vendor/prismjs/prism.css" rel="stylesheet">
+        <link href="../static/assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+        <!-- Theme Stylesheets -->
+        <link href="../static/assets/css/theme.css" rel="stylesheet">
+    </head>
+    <body class="pt-5 pt-lg-6">
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="spinner">
+                <div class="circles"></div>
+            </div>
+        </div>
+        <!-- End of Preloader -->
+        <!-- Header -->
+        <header class="spyre-navbar navbar navbar-expand-lg navbar-dark bg-secondary fixed-top align-items-center">
+            <div class="container-fluid">
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="cross">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header -->
+        <!-- Main Content -->
+        <main class="main minh-100vh">
+            <section class="py-0">
+                <div class="jumbotron jumbotron-fluid bg-blue-light py-7 px-lg-4 m-0">
+                    <div class="container-fluid">
+                        <h1 class="display-4">Current Industry</h1>
+                </div>
+                </div> 
+            </section>
+                                <form action="/route-one" method="POST">
+                                    <h3 class="mt-6 mb-4" id="industry">Industry</h3>
+                                    <div class="form-group mb-5">
+                                        <label for="exampleFormControlSelect1">Industry</label>
+                                         <select class="form-control" id="exampleFormControlSelect1" name="Industry">
+                                         <option>Tech</option>
+                                        </select>
+                                    </div> <br>
+                                    <h3 class="mt-6 mb-4" id="types">Categories</h3>
+                                    <input type="radio" name="Function" value="Design; user experience">Design; user experience</input> <br>
+                                    <input type="radio" name="Function" value="Back-end Engineering">Back-end Engineering</input> <br>
+                                    <input type="radio" name="Function" value="Front-end Engineering">Front-end Engineering</input><br> 
+                                    <input type="radio" name="Function" value="Apps">Apps</input> <br>
+                                    <input type="radio" name="Function" value="Product Management">Product Management</input> <br>
+                                    <input type="radio" name="Function" value="Content Copywriting">Content Copywriting</input> <br>
+                                    <input type="radio" name="Function" value="Marketing & Sales">Marketing & Sales</input> <br>
+                                    <input type="radio" name="Function" value="Customer & Community">Customer & Community</input> <br>
+                                    <input type="radio" name="Function" value="Management">Management</input> <br>
+                                    <input type="radio" name="Function" value="Miscellaneous">Miscellaneous</input> <br> <br>
+                                    <h3 class="mt-6 mb-4" id="types">Company Types</h3>
+                                    <input type="radio" name="Title" value="Startup">Startup</input> <br>
+                                    <input type="radio" name="Title" value="Studio">Studio</input> <br>
+                                    <input type="radio" name="Title" value="Small business">Small business</input> <br>
+                                    <input type="radio" name="Title" value="Mid-sized business">Mid-sized business</input> <br>
+                                    <input type="radio" name="Title" value="Large Organization">Large Organization</input> <br>
+                                    <input type="radio" name="Title" value="Educational Institution">Educational Institution</input> <br>
+                                    <input type="radio" name="Title" value="Non-profit">Non-profit</input> <br>
+                                    <input type="submit" value="Submit">
+                                </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Content -->
+        <!-- Core Javascripts -->
+        <script src="../static/assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="../static/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../static/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Vendor Javascripts -->
+        <script src="../static/assets/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+        <script src="../static/assets/vendor/prismjs/prism.min.js"></script>
+        <script src="../static/assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- Theme Javascripts -->
+        <script src="../static/assets/js/theme.js"></script>
+    </body>
+</html>
